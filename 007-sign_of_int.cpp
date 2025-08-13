@@ -1,5 +1,5 @@
 #include <iostream>
-
+ 
 int main(){
 	int num;
 	std::cout << "Enter any integer: ";
