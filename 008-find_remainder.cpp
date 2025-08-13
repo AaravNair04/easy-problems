@@ -1,5 +1,5 @@
 #include <iostream>
-
+ 
 int main(){
 	int dividend, divisor;
 	std::cout << "Enter dividend: ";
