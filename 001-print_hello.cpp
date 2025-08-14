@@ -1,6 +1,7 @@
 #include <iostream>		// Library for I/O operations
+using namespace std;
 
 int main(){			// main function
-	std::cout "Hello!";	// std - standard, cout - char out
+	cout << "Hello!";	// std - standard, cout - char out
 	return 0;							
 }
