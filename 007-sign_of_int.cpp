@@ -1,14 +1,15 @@
 #include <iostream>
- 
+using namespace std;
+
 int main(){
 	int num;
-	std::cout << "Enter any integer: ";
-	std::cin >> num;
+	cout << "Enter any integer: ";
+	cin >> num;
 	if (num>0)
-		std::cout << num << " is a positive number";
+		cout << num << " is a positive number";
 	else if (num<0)
-		std::cout << num << " is a negative number";	
+		cout << num << " is a negative number";	
 	else
-		std::cout << "Number is zero";			// neither negative nor positive
+		cout << "Number is zero";			// neither negative nor positive
 	return 0;
 }
