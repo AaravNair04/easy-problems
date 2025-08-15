@@ -1,9 +1,11 @@
 #include <iostream>
+using namespace std;
 
 int main(){
 	int cels;
-	std::cout << "Enter temperature in celsius: ";		// input from user
-	std::cin >> cels;
+	cout << "Enter temperature in celsius: ";		// input from user
+	cin >> cels;
 	float fahr = (cels*1.8)+32;				// convert cels to fahr
-	std::cout << "Temperature in fahrenheit: " << fahr;	// output
+	cout << "Temperature in fahrenheit: " << fahr;	// output
+	return 0;
 }
